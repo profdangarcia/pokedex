@@ -12,6 +12,7 @@ export default createGlobalStyle`
     --gray-100: #d7d7d7;
     --gray-200: #bbbbbb;
     --gray-600: #808080;
+    --gray-800: #363636;
     --gray-900: #1a1d23;
 
     --red: #FF0000;
@@ -21,6 +22,9 @@ export default createGlobalStyle`
     --yellow: #FFDE00;
     --gold: #B3A125;
     --green: #37796C;
+
+    --shadow: 7px 6px 28px 3px rgba(0, 0, 0, 0.24);
+    --light-shadow: 3px 2px 22px 3px rgba(0, 0, 0, 0.24)
   }
 
   html {

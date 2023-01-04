@@ -26,7 +26,7 @@ export const ViewFinder: React.FC = () => {
 
 const Container = styled.div`
   margin-top: 18%;
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 100%, 0 90%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 15% 100%, 0 80%);
   width: 100%;
   height: 60%;
   background: var(--gray-50);
