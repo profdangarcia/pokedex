@@ -32,7 +32,7 @@ export default createGlobalStyle`
   }
 
   body {
-    background: var(--gray-50);
+    background: var(--gray-100);
     color: var(--gray-900);
     min-height: 100vh;
   }
