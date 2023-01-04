@@ -39,8 +39,10 @@ const RoundButton = styled.button`
   width: 3.5rem;
   height: 3.5rem;
   border-radius: 50%;
-  background: var(--gray-800);
+  background-color: var(--gray-800);
+  background-image: url('./velvet.png');
   border: 1px solid var(--gray-900);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   &:active {
     transform: scale(0.98);
   }
@@ -49,9 +51,11 @@ const RoundButton = styled.button`
 const SmashButton = styled.button<{ color: string }>`
   height: 1.3rem;
   width: 18%;
-  background: ${props => `var(--${props.color})`};
+  background-image: url('./velvet.png');
+  background-color: ${props => `var(--${props.color})`};
   border-radius: 2rem;
   border: 1px solid var(--gray-800);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   &:active {
     transform: scale(0.98);
   }
@@ -78,15 +82,19 @@ const Dot = styled.span`
   width: 0.8rem;
   height: 0.8rem;
   border-radius: 50%;
-  background: var(--gray-900);
+  background-color: var(--gray-900);
+  background-image: url('./velvet.png');
   flex-shrink: 0;
 `;
 
 const GreenStuff = styled.button`
   width: 60%;
   height: 5rem;
-  background: var(--green);
+  background-color: var(--green);
   border-radius: 0.3rem;
+  background-image: url('./velvet.png');
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+
   &:active {
     transform: scale(0.98);
   }

@@ -36,6 +36,7 @@ const Core = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 
   & > span {
     background: var(--gray-900);
@@ -52,6 +53,7 @@ const VerticalControl = styled.button<{ position: 'top' | 'bottom' }>`
   border-radius: ${props =>
     props.position === 'top' ? '0.3rem 0.3rem 0 0' : '0 0 0.3rem 0.3rem'};
   transition: 0.2s ease-in-out;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 
   &:active {
     position: relative;
@@ -63,6 +65,7 @@ const HorizontalControl = styled.button<{ position: 'left' | 'right' }>`
   height: 2rem;
   width: 2.5rem;
   background: var(--gray-800);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   border-radius: ${props =>
     props.position === 'left' ? '0.3rem 0 0 0.3rem' : '0 0.3rem 0.3rem 0'};
 

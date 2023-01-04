@@ -9,7 +9,7 @@ export const BottomControls: React.FC = () => {
           <Arrow />
           <Arrow />
         </ArrowControls>
-        <Light />
+        <Light className="shiny" />
       </Top>
       <Bottom>
         <Touch />
@@ -51,6 +51,8 @@ const Arrow = styled.button`
   background: var(--gray-50);
   width: 20%;
   height: 3.5rem;
+  background-image: url('./velvet.png');
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   &:active {
     transform: scale(0.98);
   }
@@ -73,7 +75,9 @@ const Touch = styled.button`
   border-radius: 0.5rem;
   width: 40%;
   height: 3.5rem;
-  background: var(--gray-800);
+  background-color: var(--gray-800);
+  background-image: url('./velvet.png');
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   &:active {
     transform: scale(0.98);
   }

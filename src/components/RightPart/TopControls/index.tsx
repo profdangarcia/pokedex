@@ -38,6 +38,7 @@ const View = styled.div`
   border-radius: 0.5rem;
   width: 100%;
   height: 50%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 `;
 
 const ButtonsGrid = styled.div`
@@ -62,9 +63,11 @@ const ButtonsGrid = styled.div`
 `;
 
 const BlueButton = styled.button`
-  background: var(--light-blue);
+  background-color: var(--light-blue);
+  background-image: url('./velvet.png');
   width: 100%;
   height: 3rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   &:active {
     transform: scale(0.98);
   }
@@ -79,7 +82,8 @@ const SubGrid = styled.div`
 `;
 
 const SmashButton = styled.button`
-  background: var(--gray-800);
+  background-color: var(--gray-800);
+  background-image: url('./velvet.png');
   height: 0.6rem;
   width: 15%;
   border-radius: 2rem;

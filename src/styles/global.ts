@@ -59,4 +59,40 @@ export default createGlobalStyle`
       font-size: 87.5%; //14px
     }
   }
+
+  .light, .shiny {
+    overflow: hidden;
+    position: relative;
+    &::before {
+      content: '';
+      position: absolute;
+      background-color: rgba(255,255,255, 0.3);
+      height: 12.5rem;
+      width: 3rem;
+      left: -5rem;
+      transform: skewX(-20deg);
+    }
+
+  }
+
+  .shiny {
+    &:before{
+      animation: slide 1s infinite;
+    }
+  }
+
+  .light {
+    &:hover:before{
+      animation: slide 1s;
+    }
+  }
+
+  @keyframes slide {
+    0%,100% {
+      left: -5rem;
+    }
+    50% {
+      left: 100%;
+    }
+  }
 `;

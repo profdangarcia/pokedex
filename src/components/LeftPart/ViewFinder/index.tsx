@@ -5,14 +5,14 @@ export const ViewFinder: React.FC = () => {
   return (
     <Container>
       <Top>
-        <RedLight />
-        <RedLight />
+        <RedLight className="shiny" />
+        <RedLight className="shiny" />
       </Top>
 
       <Screen />
 
       <Bottom>
-        <RedLight size="bg" />
+        <RedLight size="bg" className="shiny" />
         <Speaker>
           <SpeakerLine />
           <SpeakerLine />
@@ -79,7 +79,9 @@ const Speaker = styled.div`
 const SpeakerLine = styled.div`
   height: 0.3rem;
   width: 100%;
-  background: var(--gray-200);
+  background-color: var(--gray-200);
+  background-image: url('./velvet.png');
   border-radius: 0.3rem;
   flex-shrink: 0;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 `;

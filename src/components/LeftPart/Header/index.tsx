@@ -4,11 +4,11 @@ import styled from 'styled-components';
 export const Header: React.FC = () => {
   return (
     <Container>
-      <BlueLight />
+      <BlueLight className="shiny" />
       <LightsBox>
-        <Light color="dark-red" />
-        <Light color="yellow" />
-        <Light color="green" />
+        <Light color="dark-red" className="shiny" />
+        <Light color="yellow" className="shiny" />
+        <Light color="green" className="shiny" />
       </LightsBox>
     </Container>
   );
