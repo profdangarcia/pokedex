@@ -21,7 +21,6 @@ const Container = styled.div`
   border-radius: 0 0 0 3rem;
   padding: 1rem 1.1rem 1.5rem;
   display: flex;
-  justify-content: space-between;
 `;
 
 const Content = styled.div`
