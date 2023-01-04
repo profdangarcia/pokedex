@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { BottomControls } from './BottomControls';
 import { TopControls } from './TopControls';
 
 export const RightPart: React.FC = () => {
@@ -7,6 +8,7 @@ export const RightPart: React.FC = () => {
     <Container>
       <Content>
         <TopControls />
+        <BottomControls />
       </Content>
     </Container>
   );
@@ -30,4 +32,6 @@ const Content = styled.div`
   clip-path: polygon(0 0, 42% 0, 55% 11%, 100% 11%, 100% 100%, 0 100%);
   border-radius: 0.2rem;
   padding: 0 1.5rem 1.5rem;
+  display: flex;
+  flex-direction: column;
 `;

@@ -28,7 +28,7 @@ export const TopControls: React.FC = () => {
 const Container = styled.div`
   display: flex;
   flex-direction: column;
-  height: 100%;
+  height: 60%;
   margin-top: 5rem;
   padding-top: 1.5rem;
 `;
@@ -37,7 +37,7 @@ const View = styled.div`
   background: var(--gray-900);
   border-radius: 0.5rem;
   width: 100%;
-  height: 25%;
+  height: 50%;
 `;
 
 const ButtonsGrid = styled.div`
