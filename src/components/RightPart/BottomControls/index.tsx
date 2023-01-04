@@ -11,6 +11,10 @@ export const BottomControls: React.FC = () => {
         </ArrowControls>
         <Light />
       </Top>
+      <Bottom>
+        <Touch />
+        <Touch />
+      </Bottom>
     </Container>
   );
 };
@@ -58,4 +62,19 @@ const Light = styled.div`
   border-radius: 50%;
   background: var(--yellow);
   margin-right: 0.5rem;
+`;
+
+const Bottom = styled.div`
+  display: flex;
+  justify-content: space-between;
+`;
+
+const Touch = styled.button`
+  border-radius: 0.5rem;
+  width: 40%;
+  height: 3.5rem;
+  background: var(--gray-800);
+  &:active {
+    transform: scale(0.98);
+  }
 `;
