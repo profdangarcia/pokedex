@@ -18,16 +18,16 @@ const Container = styled.div`
   clip-path: polygon(
     0 0,
     100% 0,
-    100% 90%,
-    92% 90%,
+    100% 100%,
+    92% 100%,
     92% 40%,
     47% 39%,
-    36% 66%,
-    0 66%
+    36% 80%,
+    0 80%
   );
   background: var(--red);
   border-left: 2px solid white;
-  height: 15rem;
+  height: 13rem;
   border-radius: 3rem 0 0 0;
   display: flex;
 `;
@@ -38,7 +38,7 @@ const BlueLight = styled.div`
   border-radius: 50%;
   background: var(--light-blue);
   border: 0.4rem solid white;
-  margin: 2rem 0 0 2rem;
+  margin: 1.5rem 0 0 2rem;
 `;
 
 const LightsBox = styled.div`
