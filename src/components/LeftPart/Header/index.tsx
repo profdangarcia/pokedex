@@ -18,7 +18,7 @@ const Container = styled.div`
   clip-path: polygon(0 0, 100% 0, 100% 40%, 47% 40%, 36% 80%, 0 80%);
   background: var(--red);
   border-left: 2px solid white;
-  height: 13rem;
+  height: 30%;
   border-radius: 2.5rem 0 0 0;
   display: flex;
 `;
