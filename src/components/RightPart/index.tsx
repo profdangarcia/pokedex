@@ -7,7 +7,7 @@ const Container = styled.div`
   background: var(--dark-red);
   border-radius: 0 0 3rem 0;
   height: 73vh;
-  width: 50%;
+  width: 42%;
   clip-path: polygon(0 0, 42% 0, 55% 11%, 100% 11%, 100% 100%, 0 100%);
 `;
 
