@@ -19,7 +19,7 @@ const Container = styled.div`
   background: var(--red);
   border-left: 2px solid white;
   height: 13rem;
-  border-radius: 3rem 0 0 0;
+  border-radius: 2.5rem 0 0 0;
   display: flex;
 `;
 

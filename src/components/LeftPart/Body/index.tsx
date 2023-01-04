@@ -1,10 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
+import { ViewFinder } from '../ViewFinder';
 
 export const Body: React.FC = () => {
   return (
     <Container>
-      <Content>Content</Content>
+      <Content>
+        <ViewFinder />
+      </Content>
     </Container>
   );
 };
@@ -26,4 +29,5 @@ const Content = styled.div`
   clip-path: polygon(0 10%, 36% 10%, 47% 0, 100% 0, 100% 100%, 0 100%);
   margin-top: -20%;
   border-radius: 0.1rem;
+  padding: 0 1.5rem 1.5rem;
 `;

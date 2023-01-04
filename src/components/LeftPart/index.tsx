@@ -19,7 +19,7 @@ export const LeftPart: React.FC = () => {
 const Container = styled.div`
   display: flex;
   background: var(--dark-red);
-  border-radius: 3rem 0.5rem 0.5rem 3rem;
+  border-radius: 2.5rem 0.5rem 0.5rem 2.5rem;
   height: 80vh;
   width: 50%;
 `;
